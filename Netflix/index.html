@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NETFLIX</title>
+</head>
+<style>
+    .main {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+                rgba(0, 0, 0, 0.7)), url('netflix bg.jpg');
+
+        height: 100vh;
+        width: 100vw;
+        color: black;
+    }
+
+    .container {
+        /* margin-top: ; */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10vw;
+        margin-right: 5vw;
+        gap: 16px;
+
+
+    }
+
+    .item2 {
+        display: flex;
+        gap: 20px;
+    }
+
+    .button1 {
+        box-sizing: border-box;
+        border-radius: 6px;
+        width: 100px;
+        padding: 5px;
+        border: 2px black;
+        color: white;
+        background-color: rgba(78, 56, 56, 0.584);
+        font-weight: 600;
+        position: relative;
+        z-index: 5;
+    }
+
+    .button2 {
+        box-sizing: border-box;
+        border-radius: 6px;
+        width: 70px;
+        padding: 5px;
+        border: 1px black;
+        background-color: red;
+        color: white;
+        font-weight: 700;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    .container2 {
+        display: flex;
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100vw;
+        z-index: 2;
+        color: white;
+
+    }
+
+    .box {
+        /* position: relative;
+        z-index: 4;
+        color: white; */
+    }
+
+    .email {
+        position: relative;
+        display: flex;
+        height: 16px;
+        gap: 10px;
+
+    }
+</style>
+
+<body>
+
+
+    <div class="main">
+
+        <nav>
+
+            <div class="container">
+
+                <span class="item1">
+                    <img style="width: 10vw;" src="netflix Logo.png">
+                </span>
+
+                <span class="item2">
+                    <button class="button1">English</button>
+                    <button type="button" class="button2" style="background-color: red;">Sign in</button>
+                </span>
+            </div>
+        </nav>
+
+        <div class="container2">
+
+            <span>
+                <h1>Unlimited movies, TV</h1>
+            </span>
+            <span>
+                <h1>shows and more</h1>
+            </span>
+
+            <br>
+
+            <span class="box">
+                <p>Starts at ₹149. Cancel at any time.</p>
+
+            </span>
+            <div>
+                <p>Ready to watch? Enter your email to create or restart your membership</p>
+            </div>
+
+            <br>
+
+
+            <div class="email">
+                <input type="text" placeholder="Email address">
+                <button>Get Started</button>
+            </div>
+
+
+
+
+        </div>
+
+
+
+
+
+</body>
+
+</html>

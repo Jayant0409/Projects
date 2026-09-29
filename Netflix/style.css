@@ -1,0 +1,285 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/img/netflix\ bg.jpg);
+    height: 80vh;
+    width: 100vw;
+    position: relative;
+    background-position: center center;
+    background-size: max(1200px, 100vw);
+    background-repeat: no-repeat;
+
+}
+
+nav {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+
+    align-items: center;
+
+    height: 62px;
+
+
+
+}
+
+.box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.69;
+    position: absolute;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+nav img {
+    width: 120px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    color: white;
+    background-color: rgba(248, 243, 243, 0.021);
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn1 {
+    border: 1px solid rgb(131, 115, 115);
+}
+
+/* width: 110px;
+    height: 32px;
+    border: 2px solid gray;
+    border-radius: 2px;
+    font-family: "Martel Sans", sans-serif;
+    font-weight: 400;
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 3px;
+ */
+
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+    /*  width: 76.9px;
+    height: 32px; 
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-family: "Martel Sans", sans-serif; 
+    font-weight: 700;
+    color: rgb(226, 212, 212);
+    font-size: 14px; */
+
+    /* box-sizing: border-box; */
+    /* padding: 5px; */
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: 400;
+}
+
+.btn:hover {
+    background-color: rgb(208, 37, 37);
+}
+
+.main input {
+    background-color: transparent;
+    padding: 11px 101px 11px 15px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    border: 2px solid rgb(74, 71, 71);
+    /* color: white; */
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+
+
+}
+
+.midpart {
+    font-family: "Martel Sans", sans-serif;
+    height: calc(100% - 62px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* margin-top: 30%; */
+    position: relative;
+    /* gap: 23px; */
+    padding: (0 30px);
+    text-align: center;
+
+}
+
+.midpart> :nth-child(1) {
+    font-weight: bolder;
+    font-size: 30px;
+    /* line-height: 36px; */
+    /* column-gap: 10p; */
+}
+
+.midpart> :nth-child(2) {
+    font-weight: 100;
+    font-size: 18px;
+    /* line-height: 25px; */
+}
+
+.midpart> :nth-child(3) {
+    font-weight: 300;
+    font-size: 18px;
+    /* line-height: 25px; */
+    /* position: relative; */
+    /* top: 10px; */
+}
+
+.separation {
+    height: 4px;
+    background-color: rgb(143, 138, 138);
+}
+
+.first {
+    display: flex;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    color: white;
+    /* column-gap: 10px;
+    gap: 10px; */
+    margin-top: 5vh;
+
+}
+
+.secImg {
+    position: relative;
+}
+
+.secImg img {
+    position: relative;
+    width: 555px;
+    z-index: 10;
+
+}
+
+.secImg video {
+    position: absolute;
+    width: 558px;
+    height: 225px;
+    top: 87px;
+    right: 0px
+}
+
+.first>div :nth-child(1) {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.first>div :nth-child(2) {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.faq h2{
+text-align: center;
+font-size: 48px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+    padding: 34px;
+    
+}
+
+
+.faqbox {
+transition: all 1s ease-out;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(126, 121, 121);
+    margin: 20px auto;
+    padding: 10px;
+    width: 55vw;
+    cursor: pointer;
+
+
+}
+
+.faqbox:hover{
+    background-color: rgba(64, 62, 62, 0.971);
+}
+
+.question{
+    padding: 20px 0;
+}
+
+footer{
+    padding: 25px;
+    margin: auto;
+    max-width: 60vw;
+    color: white;
+
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+}
+
+.footer a{
+    font-size: 14px;
+    color: white;
+}
+
+.footer-item{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 15px;
+}
